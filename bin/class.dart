@@ -58,3 +58,18 @@ class Area {
     return width! * height!;
   }
 }
+
+// Example 3
+// Challenge
+
+class Book {
+  String? name;
+  String? author;
+  int? prize;
+
+  void display() {
+    print('Name: $name');
+    print('Author: $author');
+    print('Prize: $prize');
+  }
+}
