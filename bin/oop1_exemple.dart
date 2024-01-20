@@ -1,29 +1,30 @@
-void main() {
-  //создаем объект то есть создаем экземпляр класса Country
-  Country kg = Country();
-  Country uzb = Country();
-  Country usa = Country();
-  Country russia = Country();
-}
+// void main() {
+//   //создаем объект то есть создаем экземпляр класса Country
+//   Country kg = Country();
+//   Country uzb = Country();
+//   Country usa = Country();
+//   Country russia = Country();
+// }
 
-//здесть создаем класс
-class Country {
-  String name;
-  int population;
-  town capital;
-  List<Oblys> oblustar;
-}
+// //здесть создаем класс
+// class Country {
+//   String name;
 
-class town {
-  String name;
-  double area;
-  int population;
-}
+//   int population;
+//   town capital;
+//   List<Oblys> oblustar;
+// }
 
-class Oblys {
-  String name;
-  double area;
-  int population;
-  List<Shaar> sharlary;
-  Shaar capital;
-}
+// class town {
+//   String name;
+//   double area;
+//   int population;
+// }
+
+// class Oblys {
+//   String name;
+//   double area;
+//   int population;
+//   List<Shaar> sharlary;
+//   Shaar capital;
+// }
