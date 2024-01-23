@@ -23,6 +23,12 @@ void main() {
   rectangle.width2 = 30;
   rectangle.height2 = 40;
   print("Area: ${rectangle.calculateArea()}");
+
+  Home home = Home();
+  home.name = 'Penthouse';
+  home.address = 'Kyrgyzstan';
+  home.numberOfRooms = 9;
+  home.display();
 }
 
 // Example 1
@@ -54,5 +60,19 @@ class Rectangle {
 
   double calculateArea() {
     return (width1! * height1!) + (width2! * height2!);
+  }
+}
+
+// challenge
+
+class Home {
+  String? name;
+  String? address;
+  int? numberOfRooms;
+
+  void display() {
+    print('Name: $name');
+    print('Address: $address');
+    print('Number of rooms: $numberOfRooms');
   }
 }
