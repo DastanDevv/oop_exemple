@@ -25,6 +25,16 @@ void main() {
   teacher1.display();
   Teacher teacher2 = Teacher("Smith", 35, "Science", 60000.0);
   teacher2.display();
+
+  Chair chair1 = Chair("Black", "Chair 1");
+  chair1.display();
+  Chair chair2 = Chair("White", "Chair 2");
+  chair2.display();
+
+  Patient patient1 = Patient("John", 30, "Covid");
+  patient1.display();
+  Patient patient2 = Patient("Smith", 35, "Diabetes");
+  patient2.display();
 }
 
 class DartProgramming {
@@ -59,5 +69,29 @@ class Teacher {
     print("Age: ${this.age}");
     print("Subject: ${this.subject}");
     print("Salary: ${this.salary}\n");
+  }
+}
+
+class Chair {
+  Chair(this.color, this.name);
+  String name;
+  String color;
+
+  void display() {
+    print("Name: ${this.name}");
+    print("Color: ${this.color}");
+  }
+}
+
+class Patient {
+  Patient(this.name, this.age, this.disease);
+  String name;
+  int age;
+  String disease;
+
+  void display() {
+    print("Name: ${this.name}");
+    print("Age: ${this.age}");
+    print("Disease: ${this.disease}");
   }
 }
