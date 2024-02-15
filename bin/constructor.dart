@@ -67,6 +67,8 @@ class Teacher {
   void display() {
     print("Name: ${this.name}");
     print("Age: ${this.age}");
+
+    
     print("Subject: ${this.subject}");
     print("Salary: ${this.salary}\n");
   }
