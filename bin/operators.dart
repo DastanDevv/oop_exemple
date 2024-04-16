@@ -30,9 +30,26 @@
 
 //  вычисления площади круга
 
-// void main() {
-//   trygle();
-// }
+import 'dart:io';
+
+void main() {
+  // trygle();
+  // Запросить у пользователя два числа
+  print('Введите первое число:');
+  double firstNumber = double.parse(stdin.readLineSync()!);
+
+  print('Введите второе число:');
+  double secondNumber = double.parse(stdin.readLineSync()!);
+
+  // Проверить условия и вывести соответствующее сообщение
+  if (firstNumber > secondNumber) {
+    print('$firstNumber больше, чем $secondNumber');
+  } else if (firstNumber < secondNumber) {
+    print('$firstNumber меньше, чем $secondNumber');
+  } else {
+    print('$firstNumber равно $secondNumber');
+  }
+}
 
 // trygle() {
 //   double radius = 5;
@@ -46,3 +63,6 @@
 //   dynamic far = (cel * 9 / 5) + 32;
 //   print(far);
 // }
+
+// задачи по Реляционные операторы
+
